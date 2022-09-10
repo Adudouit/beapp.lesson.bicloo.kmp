@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BiclooApp.StationItem" />
+
+    <style name="Theme.BiclooApp.StationItem.Name">
+        <item name="android:textColor">@color/onBackground</item>
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+
+    <style name="Theme.BiclooApp.StationItem.Address">
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+
+</resources>

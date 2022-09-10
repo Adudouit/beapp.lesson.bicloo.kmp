@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Text sizes -->
+    <dimen name="text_largest">24sp</dimen>
+    <dimen name="text_larger">20sp</dimen>
+    <dimen name="text_large">18sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+
+
+    <!-- Space sizes -->
+    <dimen name="space_largest">32dp</dimen>
+    <dimen name="space_larger">24dp</dimen>
+    <dimen name="space_large">20dp</dimen>
+    <dimen name="space_medium">16dp</dimen>
+    <dimen name="space_small">12dp</dimen>
+    <dimen name="space_smaller">10dp</dimen>
+    <dimen name="space_smallest">8dp</dimen>
+    <dimen name="space_tiny">6dp</dimen>
+    <dimen name="space_tinier">4dp</dimen>
+    <dimen name="space_tiniest">2dp</dimen>
+
+    <!-- Radius -->
+    <dimen name="radius_large">12dp</dimen>
+    <dimen name="radius_medium">6dp</dimen>
+    <dimen name="radius_small">4dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_medium">6dp</dimen>
+    <dimen name="elevation_small">2dp</dimen>
+
+
+    <!-- Divider -->
+    <dimen name="divider_large">4dp</dimen>
+    <dimen name="divider_medium">2dp</dimen>
+    <dimen name="divider_small">1dp</dimen>
+</resources>

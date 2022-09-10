@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BiclooApp</string>
+    <string name="citySelectionActivity_search_hint">Search for a city…</string>
+    <string name="citySelectionActivity_submit_label">Submit</string>
+    <string name="mainActivity_menu_stationLabel">Stations</string>
+    <string name="mainActivity_menu_mapLabel">Carte</string>
+</resources>
