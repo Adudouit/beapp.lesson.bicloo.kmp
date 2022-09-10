@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import fr.beapp.lesson.bicloo.databinding.CitySelectionActivityBinding
 import fr.beapp.lesson.bicloo.ui.home.HomeActivity
+import fr.beapp.lesson.shared.Greeting
 
 class CitySelectionActivity : AppCompatActivity() {
 
@@ -22,6 +23,11 @@ class CitySelectionActivity : AppCompatActivity() {
             viewModel.searchForContract(city)
         }
         viewModel.contractNameFound.observe(this, this::onSearchResult)
+
+
+
+        val greeting = Greeting().greeting()
+        println("[KMP] $greeting")
     }
 
 
