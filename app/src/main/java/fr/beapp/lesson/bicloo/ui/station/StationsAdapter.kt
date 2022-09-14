@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import fr.beapp.lesson.bicloo.databinding.StationItemBinding
-import fr.beapp.lesson.bicloo.logic.StationEntity
+import fr.beapp.lesson.shared.logic.StationEntity
 
 class StationsAdapter(private val onStationClicked: (StationEntity) -> Unit) : RecyclerView.Adapter<StationItem>() {
 

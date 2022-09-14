@@ -12,7 +12,7 @@ import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 import fr.beapp.lesson.bicloo.databinding.MapFragmentBinding
-import fr.beapp.lesson.bicloo.logic.StationEntity
+import fr.beapp.lesson.shared.logic.StationEntity
 import fr.beapp.lesson.bicloo.ui.home.HomeViewModel
 
 class MapFragment : Fragment(), OnMapReadyCallback {

@@ -10,7 +10,7 @@ import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import fr.beapp.lesson.bicloo.R
 import fr.beapp.lesson.bicloo.databinding.HomeActivityBinding
-import fr.beapp.lesson.bicloo.logic.StationEntity
+import fr.beapp.lesson.shared.logic.StationEntity
 import fr.beapp.lesson.bicloo.ui.map.MapFragment
 import fr.beapp.lesson.bicloo.ui.station.StationsFragment
 

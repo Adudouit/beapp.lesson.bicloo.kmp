@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import fr.beapp.lesson.bicloo.databinding.StationsFragmentBinding
-import fr.beapp.lesson.bicloo.logic.StationEntity
+import fr.beapp.lesson.shared.logic.StationEntity
 import fr.beapp.lesson.bicloo.ui.home.HomeViewModel
 import fr.beapp.lesson.bicloo.ui.map.MapFragment
 

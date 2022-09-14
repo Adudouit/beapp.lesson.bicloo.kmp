@@ -5,13 +5,13 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import fr.beapp.lesson.bicloo.core.rest.RestManager
-import fr.beapp.lesson.bicloo.logic.ContractEntity
+import fr.beapp.lesson.shared.logic.ContractEntity
+import fr.beapp.lesson.shared.core.rest.RestDataSource
 import kotlinx.coroutines.launch
 
 class CitySelectionViewModel : ViewModel() {
 
-    private val manager = RestManager
+	private val manager = RestDataSource
 
     private val _contracts = MutableLiveData<List<ContractEntity>>(emptyList())
     private val _contractNameFound = MutableLiveData<Result<String>>()

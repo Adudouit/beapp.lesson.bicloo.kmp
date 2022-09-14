@@ -6,13 +6,13 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.google.android.gms.maps.model.Marker
-import fr.beapp.lesson.bicloo.core.rest.RestManager
-import fr.beapp.lesson.bicloo.logic.StationEntity
+import fr.beapp.lesson.shared.core.rest.RestDataSource
+import fr.beapp.lesson.shared.logic.StationEntity
 import kotlinx.coroutines.launch
 
 class HomeViewModel : ViewModel() {
 
-    private val manager = RestManager
+    private val manager = RestDataSource
 
     private val _stations = MutableLiveData<List<StationEntity>>()
     val stations: LiveData<List<StationEntity>>
