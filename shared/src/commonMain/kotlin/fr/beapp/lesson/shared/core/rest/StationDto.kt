@@ -1,4 +1,4 @@
-package fr.beapp.lesson.bicloo.core.rest
+package fr.beapp.lesson.shared.core.rest
 
 import fr.beapp.lesson.shared.logic.StationEntity
 import kotlinx.serialization.Serializable

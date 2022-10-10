@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import fr.beapp.lesson.bicloo.databinding.CitySelectionActivityBinding
 import fr.beapp.lesson.bicloo.ui.home.HomeActivity
+import fr.beapp.lesson.shared.core.cache.Storage
 
 class CitySelectionActivity : AppCompatActivity() {
 
@@ -14,6 +15,7 @@ class CitySelectionActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Storage.init(this.cacheDir)
         // Set view
         binding = CitySelectionActivityBinding.inflate(layoutInflater)
         setContentView(binding.root)
